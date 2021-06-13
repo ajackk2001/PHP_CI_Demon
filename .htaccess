@@ -1,0 +1,15 @@
+RewriteEngine on
+
+#BEGIN force www before URL
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule ^ http%1://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+#強制SSL
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#去掉index.php
+RewriteCond $1 !^(index\.php|images|css|js|uploads|style|robots\.txt|assets)
+RewriteRule ^(.*)$ index.php?/$1 [L]
+
+

@@ -1,0 +1,5 @@
+[2020-04-20 14:32:18]-----sms------
+[2020-04-20 14:32:18]URL: http://sms-get.com/api_send.php
+[2020-04-20 14:32:18]DATA: username=punkgo&password=punkgopunkgo&method=1&sms_msg=&phone=0905286350
+[2020-04-20 14:32:18]{"stats":false,"error_code":"001","error_msg":"\u53c3\u6578\u932f\u8aa4"}
+[2020-04-20 14:32:18]-----------------

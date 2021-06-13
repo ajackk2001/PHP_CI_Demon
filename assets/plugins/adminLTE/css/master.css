@@ -1,0 +1,57 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+a:focus, button {text-decoration: none;outline:none;display:none}
+ol, ul {list-style: none;}
+
+/*top button*/
+html {scroll-behavior: smooth} @media screen and (prefers-reduced-motion: reduce) {html {scroll-behavior: auto}}
+a.top {position:absolute;top:0;right:30px;width:12px;writing-mode: vertical-lr;text-orientation:mixed;color: #6a6a6a;padding: 11em 0 0;font-family: Myriad Pro}
+a.top:before {position: absolute;top:0;content:"";right:6px;width: 1px;height: 10em;background-color: #6a6a6a}
+
+body {background:#21292f url(../img/bg--overlay.png) no-repeat center bottom;height: 100vh;background-size: contain;}
+html, body, h1, h2, h3, h4, h5, h6, p, a {font-family:'微軟正黑體', Arial, Helvetica, sans-serif}
+a, a:active, a:focus, a:hover{outline: none;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;text-decoration: none;}
+
+.container.animated {padding-top: 50px;padding-bottom: 100px;max-width: 520px;}
+.content-wrapper .content {padding: 0 0.5rem;}
+#login {position:relative;top:158px;text-align: center;color: #fff}
+#login .toparea {margin: 0 0 32px;}
+#login .toparea a {color:#fff;}
+#login .logo {display: inline-block;margin:0 auto;font-size: 2.15em}
+#login .toparea h1 {display: block;width: 100%;margin:0 0 28px;}
+#login .toparea h2 {display: block;width: 100%;}
+#login .loginBox {width: 880px;}
+#login input.form-control {padding: 8px 16px;height: 48px;color: #555;font-size: 15px;box-shadow: none;border-radius: 7px;}
+#login button {width: 100%;height: 48px;border-radius: 7px;position: relative;}
+#login .links-inner {margin: 24px auto;text-align: center;}
+#login .links-inner a {color:#fff;font-size: 16px;font-weight: 200;padding-left: 15px;padding-right: 15px;float: left;}
+#login .links-inner a:hover {color: #cfcfcf}
+#login .links-inner a:not(:first-child) {border-left: 1px solid rgba(255,255,255,0.2);}
+#login .copyright {font-size: small;color: #989898;display: block;width: 100%;text-align: center;margin: 0;}
+#login button i {position: absolute;top:16px;left:90%;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+#login button:hover i {position: absolute;top:16px;left:92%;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+#login .feedback {color: #f2a147;border: none;padding:0 16px;text-align: left;margin: 10px 0 25px;font-size: 1.125em}
+.btn-primary {color: #fff;}
+footer {position:relative;background: #87b9d1;color: #333;border-bottom: #1f596f 50px solid;padding:25px 0;}
+
+@media only screen and (max-width: 768px) {
+a:focus, button {display:block}
+.pc {display:none!important;}
+.mobile {display:block!important;}
+.navbar {display:block}
+.logo, .unit-menu {display:none}
+footer {padding: 20px 0;overflow: hidden;border-bottom: #1f596f 20px solid;}
+footer .row {display: block}
+footer .col-4 {display: none}
+footer .f-logo {width: 100%;text-align: center;margin-bottom: 15px}
+footer .f-logo img {width: 168px;height: auto;margin:0 auto;}
+footer p.corp {font-size: 24px;margin:0;}
+footer .infobox {width: 100%;padding: 0}
+footer .qlink {display: none!important}
+footer .copyright {margin: 20px 0 0}
+footer h4 {margin: 0 0 15px;font-size: 1.25em;font-weight: 700}
+footer p {margin: 0 0 8px;font-size: 14px}
+footer .copyright {margin: 36px 10px 0}
+footer .copyright p {text-align:center;}
+footer .copyright a.mail, footer .copyright a.fb{display: none}
+}

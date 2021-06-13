@@ -1,0 +1,7 @@
+{
+  "web": {
+    "client_id": "213601452379-llef1upao81hk6gg205p0suismsrh0n9.apps.googleusercontent.com",
+    "client_secret": "H5li7Lay5MBPC8l5JjBnKVeW",
+    "redirect_uris": ["https://foodrxcmu.webs.email/Google/CallBack"]
+  }
+}

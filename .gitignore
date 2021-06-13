@@ -1,0 +1,8 @@
+session/*
+application/logs/sms/*
+/vendor
+/uploads/*
+/zilin
+/application/logs
+/application/config/database.php
+.DS_Store

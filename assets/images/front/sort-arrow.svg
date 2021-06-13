@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill-rule:evenodd;opacity:.54}
+        </style>
+    </defs>
+    <g id="選單ico" transform="translate(-172 -78)">
+        <path id="rectangle" d="M0 0h24v24H0z" class="cls-1" transform="translate(172 78)"/>
+        <path id="path" d="M7 10l5 5 5-5z" class="cls-2" transform="translate(172 78)"/>
+    </g>
+</svg>
